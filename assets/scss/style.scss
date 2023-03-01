@@ -1,6 +1,8 @@
 @import "normalize";
 
-@import "presets/skins";
+@import "presets/bootswatch";
 @import "presets/variables";
+
+@import "../../libs/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css";
 
 @import "common";
