@@ -84,7 +84,7 @@
 
             <li class="nav-item">
               <button type="button" class="btn btn-outline-success" data-bs-toggle="modal" data-bs-target="#testModal">
-                Зворотній зв'язок
+                зв'язок
               </button>
             </li>
           </ul>
@@ -96,10 +96,10 @@
   </header>
 
   <div class="container-lg">
-    <div class="row mb-5">
+    <div class="row my-2">
 
       <!-- Main -->
-      <div class="col-xxl-7 col-xl-8 col-lg-12">
+      <div class="col-xxl-7 col-xl-8 col-lg-12 mb-3">
 
         <div class="accordion" id="accordiontest">
 
@@ -167,7 +167,7 @@
       </div>
 
       <!-- Left -->
-      <div class="col-xxl-3 col-xl-4 col-lg-6 order-xl-first">
+      <div class="col-xxl-3 col-xl-4 col-lg-6 order-xl-first mb-3">
 
         <div id="carousel-primary" class="carousel slide">
           <div class="carousel-indicators">
@@ -226,9 +226,9 @@
       </div>
 
       <!-- Right -->
-      <div class="col-xxl-2 col-xl-12 col-lg-6 order-last">
-        <div class="rov">
-          <div class="card" style="width: 18rem;">
+      <div class="col-xxl-2 col-xl-12 col-lg-6 order-last mb-3">
+        <div class="rov mb-2">
+          <div class="card mb-2">
             <img src="assets/img/1img.jpg" class="card-img-top" alt="Природа">
             <div class="card-body">
               <h5 class="card-title">Cтаття 1</h5>
@@ -236,45 +236,49 @@
               <a href="index.html" class="btn btn-success">Читати!</a>
             </div>
           </div>
-        </div>
 
-        <div class="card" style="width: 18rem;">
-          <img src="assets/img/2img.jpg" class="card-img-top" alt="Природа">
-          <div class="card-body">
-            <h5 class="card-title">Cтаття 2</h5>
-            <p class="card-text">Стаття 2 про природу</p>
-            <a href="index.html" class="btn btn-success">Читати!</a>
+          <div class="card mb-2">
+            <img src="assets/img/2img.jpg" class="card-img-top" alt="Природа">
+            <div class="card-body">
+              <h5 class="card-title">Cтаття 2</h5>
+              <p class="card-text">Стаття 2 про природу</p>
+              <a href="index.html" class="btn btn-success">Читати!</a>
+            </div>
           </div>
+
         </div>
       </div>
 
     </div>
   </div>
 
-  <div class="row">
+  <!-- Footer -->
+  <div class="container-lg">
+    <div class="row">
 
-    <footer class="py-2 my-2">
-      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
-        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Головна</a></li>
-        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Галерея</a></li>
-        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Статті</a></li>
-        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Реєстрація</a></li>
-        <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Про нас</a></li>
+      <footer class="py-2 my-2">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Головна</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Галерея</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Статті</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Реєстрація</a></li>
+          <li class="nav-item"><a href="index.html" class="nav-link px-2 text-muted">Про нас</a></li>
 
-        <li>
-          <form>
-            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-              <label for="newsletter" class="visually-hidden">Email</label>
-              <input id="newsletter" type="email" class="form-control" placeholder="Email">
-              <button class="btn btn btn-outline-success" type="submit">Підписатись!</button>
-            </div>
-          </form>
-        </li>
-      </ul>
+          <li>
+            <form>
+              <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                <label for="newsletter" class="visually-hidden">Email</label>
+                <input id="newsletter" type="email" class="form-control" placeholder="Email">
+                <button class="btn btn btn-outline-success" type="submit">Підписатись!</button>
+              </div>
+            </form>
+          </li>
+        </ul>
 
-      <p class="text-center text-muted">© 2022 Company, Inc</p>
-    </footer>
+        <p class="text-center text-muted">© 2022 Company, Inc</p>
+      </footer>
 
+    </div>
   </div>
 
   <!-- Modal -->
